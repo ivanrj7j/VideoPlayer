@@ -1,0 +1,131 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 5px #000000;
+    align-items: center;
+}
+
+.vid{
+    width: 80%;
+    margin-bottom: 0px;
+}
+.video{
+    margin-bottom: 0px;
+}
+
+.play{
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-radius: 100%;
+    outline: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+    color: white;
+}
+
+.play:hover{
+    color: #ffeeff;
+}
+
+.controls{
+    background: rgba(0, 0, 0, 0.664);
+    width: 80%;
+    padding: 10px 0;
+    margin: 0;
+    transform: translateY(-4px);
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+#timestamp{
+    color: white;
+    float: right;
+    transform: translateY(-10px);
+    
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  /* background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, rgba(255, 255, 255, 0.383) 50%, #fff 100%); */
+  border: solid 1px #82CFD0;
+  border-radius: 8px;
+  height: 7px;
+  width: 80%;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  transition: 0.2s ease;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #25bdeb; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #25bdeb; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.range{
+  margin: auto;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slide {
+  /* background: linear-gradient(to right, #82CFD0 0%, #82CFD0 57.4%, rgba(255, 255, 255, 0.383) 57.4%, #fff 100%); */
+  border: solid 1px #82CFD0;
+  border-radius: 8px;
+  height: 7px;
+  /* width: 20%; */
+  outline: none;
+  transition: 0.2 ease-in;
+  -webkit-appearance: none;
+}
+
+/* Mouse-over effects */
+.slide:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slide::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #25bdeb; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slide::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #25bdeb; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
